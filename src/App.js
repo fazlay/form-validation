@@ -45,7 +45,7 @@ function App() {
     } else if (!regex.test(userInfo?.password)) {
       error.password = 
       
-      `Password 7 - 15 characters with one 
+      `Password 7 to 15 characters with one 
        numeric and a special character`;
      
     }
